@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: sans-serif;
+    font-size:25px;
+}
+.container {
+    width: 1220px;
+    margin: 0 auto;
+    height: 1220px;
+    background-image: url('letitbe.jpg');
+    color: white;
+    padding-top: 155px;
+}
+.beatel {
+    background-color: rgba(255, 0, 85, 0.25);
+    width: 200px;
+    cursor: pointer;
+}
+.beatel .naam {
+    /*opacity: 0;*/
+}
+.beatel:hover .naam {
+    opacity: 1;
+}
+#John {
+    margin-left: 120px;
+    padding-top: 405px;
+    padding-left: 269px;
+}
+#John .naam {
+    margin-left: 75px;
+}
+#Paul {
+    margin-left: 600px;
+    padding-top: 405px;
+    padding-left: 269px;
+}
+#Paul .naam {
+    margin-left: 75px;
+}
+#Ringo {
+    margin-left: 120px;
+    padding-top: 405px;
+    padding-left: 269px;
+}
+#Ringo .naam {
+    margin-left: 75px;
+}
+#George {
+    margin-left: 120px;
+    padding-top: 405px;
+    padding-left: 269px;
+}
+#George .naam {
+    margin-left: 75px;
+}
+h3, p {
+    margin: 0;
+    padding: 0;
+}
+.naam {
+    border-left: solid 11px #ff0055;
+    padding-left: 9px;
+}
