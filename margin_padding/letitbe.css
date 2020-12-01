@@ -14,12 +14,12 @@ body {
     padding-top: 155px;
 }
 .beatel {
-    background-color: rgba(255, 0, 85, 0.25);
+    /*background-color: rgba(255, 0, 85, 0.25);*/
     width: 200px;
     cursor: pointer;
 }
 .beatel .naam {
-    /*opacity: 0;*/
+    opacity: 0;
 }
 .beatel:hover .naam {
     opacity: 1;
@@ -34,27 +34,30 @@ body {
 }
 #Paul {
     margin-left: 600px;
+    margin-top: -470px;
     padding-top: 405px;
     padding-left: 269px;
 }
 #Paul .naam {
-    margin-left: 75px;
+    margin-left: 50px;
 }
 #Ringo {
     margin-left: 120px;
-    padding-top: 405px;
+    padding-top: 425px;
     padding-left: 269px;
 }
 #Ringo .naam {
     margin-left: 75px;
 }
 #George {
-    margin-left: 120px;
+    margin-left: 600px;
+    margin-top: -470px;
     padding-top: 405px;
     padding-left: 269px;
 }
 #George .naam {
     margin-left: 75px;
+    color: black;
 }
 h3, p {
     margin: 0;
