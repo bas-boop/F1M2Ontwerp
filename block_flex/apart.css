@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+nav a {
+  display: block;
+  background-color: rgb(139, 2, 151);
+  color: wheat;
+  direction: none;
+  width: 200px;
+  padding: 5px 10px;
+  float: left;
+  text-align: center;
+}
+nav a:hover {
+  background-color: purple;
+}
+h1 {
+  font-family: serif;
+  color:darkgray;
+  background-color: purple;
+}
+footer {
+  background-color: wheat;
+  color: black;
+  padding: 10px 30px;
+}
